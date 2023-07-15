@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdlib.h>
+#include "play.hpp"
+
+using namespace std;
+
+int main() {
+
+  introduction();
+  std::cout << "TIC-TAC-TOE";
+  std::cout << "=============";
+  std::cout << "RULES";
+  std::cout << "1: X goes first.";
+  std::cout << "2: You must get 3 in a row to win.";
+  std::cout << "3: If no one gets 3 in a row, it's a tie or cat.";
+  std::cout << "4: To get 'X' or 'O' on the board, you must pick and type in the number on the board.";
+  std::cout << "===================================================";
+  std::cout << "Player1, please pick a number within 1-9";
